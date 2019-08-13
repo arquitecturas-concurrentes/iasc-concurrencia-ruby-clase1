@@ -1,0 +1,8 @@
+#!/bin/sh
+
+RUBY_VERSION="${2:-2.3.6}"
+JRUBY=/Users/devpino/.rvm/rubies/jruby-9.2.6.0/bin/ruby
+MRI="/Users/devpino/.rvm/rubies/ruby-$RUBY_VERSION/bin/ruby"
+
+echo JRuby: `$JRUBY $1`
+echo MRI: `$MRI $1`
