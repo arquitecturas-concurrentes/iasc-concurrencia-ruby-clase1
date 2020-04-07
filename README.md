@@ -31,3 +31,9 @@ habra que instalar openssl aparte
 rvm pkg install openssl
 rvm install 2.3.6 --with-openssl-dir=$HOME/.rvm/usr
 ```
+
+o
+
+```ruby
+rvm install 2.3.6 --autolibs=disable
+```
