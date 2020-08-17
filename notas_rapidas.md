@@ -9,6 +9,8 @@
 
 - Ejemplo 4 **solo en MRI**.... no tenemos nada de E/S, pero con la version que tenemos... esto fallaria ... porque???
 
+**Los ejemplos hay que correrlos con MRI 2.3.6 y 2.7.1**
+
 ```bash
 /iasc/concurrencia-ruby(proposal_changes)$ ruby -v
 ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
