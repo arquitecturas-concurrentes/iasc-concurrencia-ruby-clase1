@@ -11,6 +11,8 @@ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703
 ```
 
 
+## Instalar Ruby 2.3.6
+
 ### Que pasa si al instalar ruby 2.3.6 falla
 
 si tenemos un error de este tipo....
@@ -36,4 +38,17 @@ o
 
 ```ruby
 rvm install 2.3.6 --autolibs=disable
+```
+
+
+## Instalar Ruby 2.7.1
+
+```ruby
+rvm install 2.7.1
+```
+
+## Instalar el ultimo Jruby
+
+```ruby
+rvm install jruby
 ```
