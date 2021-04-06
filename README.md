@@ -40,6 +40,13 @@ o
 rvm install 2.3.6 --autolibs=disable
 ```
 
+o....
+
+ruby 2.3.5 tambien puede usarse...
+
+```ruby
+rvm install 2.3.5 --autolibs=disable
+```
 
 ## Instalar Ruby 2.7.1
 
