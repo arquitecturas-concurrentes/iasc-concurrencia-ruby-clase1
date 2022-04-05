@@ -6,7 +6,7 @@
 
 - Ejemplo 3 **(MRI)**: lo extraemos en una variable a ver qué pasa... no deberia cambiar nada, pero vemos que la llamada al getter produce un cambio de contexto 
 
-- Ejemplo 4 **(MRI)**: correr este ejemplo con MRI 2.7.1 y con 2.3.6. En 2.3.6, por más que no tenemos nada de E/S, esto falla. ¿Por qué?
+- Ejemplo 4 **(MRI)**: correr este ejemplo con MRI 2.7.5 y con 2.3.6. En 2.3.6, por más que no tenemos nada de E/S, esto falla. ¿Por qué?
 ```bash
 /iasc/concurrencia-ruby(proposal_changes)$ ruby -v
 ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
