@@ -1,4 +1,4 @@
-FROM ghcr.io/arquitecturas-concurrentes/iasc-rvm-debian-slim:main
+FROM ghcr.io/arquitecturas-concurrentes/iasc-rvm-debian-slim:1.0.0
 
 RUN /bin/bash -l -c 'rvm pkg install openssl'
 
