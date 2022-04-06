@@ -72,3 +72,28 @@ rvm install 3.1.1
 ```ruby
 rvm install jruby
 ```
+
+### Alternativa (Docker)
+
+Teniendo instalado docker localmente, o siguiendo la siguiente [docker](https://docs.docker.com/engine/install/), se puede bajar la imagen de docker de esta clase que contiene ya instalado las versiones utilizadas en clase junto con el codigo:
+
+
+```bash
+docker run --name iasc-clase1-ruby -it ghcr.io/arquitecturas-concurrentes/iasc-concurrencia-tradicional-ruby:1.0.0
+```
+
+una vez dentro del contenedor, vamos a poder usar rvm para cambiar de versiones
+
+```bash
+root@0e31b9f7da22:/app# rvm list
+   jruby-9.2.20.0 [ x86_64 ]
+   ruby-2.3.6 [ x86_64 ]
+=> ruby-2.7.5 [ x86_64 ]
+ * ruby-3.0.0 [ x86_64 ]
+
+# => - current
+# =* - current && default
+#  * - default
+
+root@0e31b9f7da22:/app# 
+```
