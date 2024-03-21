@@ -4,7 +4,7 @@ def valor_del_contador
   @likes
 end
 
-def setear_contador(nuevo_valor) 
+def setear_contador(nuevo_valor)
   @likes = nuevo_valor
 end
 

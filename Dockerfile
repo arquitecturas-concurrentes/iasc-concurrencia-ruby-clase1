@@ -6,7 +6,7 @@ RUN /bin/bash -l -c 'rvm pkg install openssl'
 ENV OLD_RUBY "2.3.6"
 RUN /bin/bash -l -c 'echo "Now installing Ruby $OLD_RUBY" && rvm install $OLD_RUBY --with-openssl-dir=/usr/local/rvm/usr'
 
-ENV REQUIRED_RUBIES "2.7.5"
+ENV REQUIRED_RUBIES "3.1.1"
 RUN /bin/bash -l -c 'for version in $REQUIRED_RUBIES; do echo "Now installing Ruby $version"; rvm install $version --autolibs=disable; rvm cleanup all; done'
 
 ENV JRUBY "jruby-9.2.20.0"
