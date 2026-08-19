@@ -10,7 +10,7 @@ end
 
 100.times.map do
   Thread.new do
-    100_000.times do
+    10_000.times do
       nuevo_valor = valor_del_contador
       setear_contador(nuevo_valor + 1)
     end

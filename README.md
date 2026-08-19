@@ -61,10 +61,10 @@ ruby 2.3.5 tambien puede usarse...
 rvm install 2.3.5 --autolibs=disable
 ```
 
-## Instalar Ruby 3.1.1
+## Instalar Ruby 3.2.2
 
 ```ruby
-rvm install 3.1.1
+rvm install 3.2.2
 ```
 
 ## Instalar el ultimo Jruby

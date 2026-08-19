@@ -1,11 +1,14 @@
+require "gvl-tracing"
 @likes = 0
 
-100.times.map do
-  Thread.new do
-    100_000.times do
-      @likes += 1
+GvlTracing.start("01_publicacion_simple.json") do
+  100.times.map do
+    Thread.new do
+      10000.times do
+        @likes += 1
+      end
     end
-  end
-end.each(&:join)
+  end.each(&:join)
+end
 
 puts @likes

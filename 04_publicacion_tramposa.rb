@@ -6,7 +6,7 @@
     100_000.times do
       nuevo_valor = @likes
       nuevo_valor = nuevo_valor + 1
-      @likes = nuevo_valor unless false
+      @likes = nuevo_valor unless false # if not false
     end
   end
 end.each(&:join)
